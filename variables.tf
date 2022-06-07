@@ -17,17 +17,17 @@ variable "prefix" {
 
 variable "region" {
   description = "The region where the resources are created."
-  default     = "us-central1"
+  default     = "asia-southeast1"
 }
 
 variable "zone" {
   description = "The zone where the resources are created."
-  default     = "us-central1-b"
+  default     = "asia-southeast1-a"
 }
 
 variable "subnet_prefix" {
   description = "The address prefix to use for the subnet."
-  default     = "10.128.0.0/20"
+  default     = "10.148.0.0/20"
 }
 
 variable "machine_type" {
