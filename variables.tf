@@ -7,7 +7,7 @@
 
 variable "project" {
   description = "ID of your GCP project. Make sure you set this up before running this terraform code.  REQUIRED."
-  default     = "hc-d7254e85d7d04963837d41615ae"
+  default     = "hc-53771aab9cd94f93ba281d03ab6"
 }
 
 variable "prefix" {
